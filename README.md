@@ -12,6 +12,17 @@ Built with the **Vite + React + Tailwind + shadcn/ui** stack for the Spacenos As
 - **Dynamic Visualizations:** Real-time topic frequency charts built with Recharts.
 - **Responsive UI:** Fully themed with shadcn/ui and optimized for all device sizes.
 
+````markdown
+## 📱 Screenshots
+
+### Desktop View
+
+![Desktop View](./screenshots/desktop.jpeg)
+
+### Mobile View
+
+![Mobile View](./screenshots/mobile.jpg)
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 18, Vite, TypeScript.
@@ -19,6 +30,18 @@ Built with the **Vite + React + Tailwind + shadcn/ui** stack for the Spacenos As
 - **Backend/Database:** Firebase Firestore (NoSQL).
 - **Intelligence:** OpenAI API (GPT-4o-mini).
 - **Charts:** Recharts.
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── ui/ # shadcn/ui components (Badge, Input, etc.)
+│ └── TrendBoard.tsx # Main Dashboard logic & UI
+├── lib/
+│ ├── firebase.ts # Firebase initialization & config
+│ └── news-engine.ts # AI Logic & Firestore caching layer
+├── App.tsx # Root component
+└── main.tsx # Entry point
 
 ## 🏗️ Architectural Highlight: The Intelligence Layer
 
@@ -35,8 +58,8 @@ To optimize for the "Trusted" business model and performance, this app doesn't j
 ```bash
 git clone https://github.com/your-username/trendboard-ai.git
 cd trendboard-ai
-
 ```
+````
 
 2. **Install dependencies:**
 
