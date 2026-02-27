@@ -4,6 +4,8 @@ import Header from "./components/home/Header";
 import NewsFeed from "./components/home/NewsFeed";
 import SideChart from "./components/home/SideChart";
 
+
+
 const FINNHUB_KEY = import.meta.env.VITE_FINNHUB_KEY;
 
 
